@@ -11,22 +11,60 @@
   position: fixed;
   top: 0;
   left: 0;
-
   z-index: -1;
 }
-.logo.centered {
+.logo.centered.size {
 	position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  	top: 50%;
+  	left: 50%;
+ 	/* bring your own prefixes */
+ 	transform: translate(-50%, -50%);
 }
-
-.centered {
-  
-}
-
 .imgcolor {
 	color: (100, 43, 210, .4);
 	object-position: top;
+}
+p {
+	font-size: 80%;
+}
+
+ol {
+	font-size: 80%;
+}
+
+a {
+	display: block;
+	font-family: arial;
+	margin: 10px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: blue;
 }
