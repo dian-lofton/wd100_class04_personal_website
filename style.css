@@ -13,12 +13,9 @@
   left: 0;
   z-index: -1;
 }
-.logo.centered.size {
-	position: fixed;
-  	top: 50%;
-  	left: 50%;
- 	/* bring your own prefixes */
- 	transform: translate(-50%, -50%);
+.logo {
+	display: inline-block;
+	float: left;
 }
 .imgcolor {
 	color: (100, 43, 210, .4);
@@ -33,7 +30,8 @@ ol {
 }
 
 a {
-	display: block;
+	display: inline;
+	float: right;
 	font-family: arial;
 	margin: 10px;
 }
@@ -62,7 +60,7 @@ a:visited {
 }
 
 a:hover {
-    color: gray;
+    color: firebrick;
 }
 
 a:active {
